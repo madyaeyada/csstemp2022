@@ -118,7 +118,8 @@ text-align: center;padding: 20px;}
 .news h{
     background-color:#0dcaf0;padding: 10px;border-radius: 5px;
 }.news h2{
-    margin: 10px;
-/* }.newsOLD h2{
+    margin: 10px;}
+/* }
+.newsOLD h2{
   top:120px; position:absolute;z-index: -1;border: 1px solid red;
 } */

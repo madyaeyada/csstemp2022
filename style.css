@@ -76,7 +76,7 @@ div.down{
     
 }.contfooter{background-color: rgb(6, 0, 0);
     opacity: 0.7345;padding: 10px;
-    color:rgb(64, 13, 13);
+    color:rgb(64, 13, 13);min-height: 400px;
 }
 .allcontfooter{
     display: flex; justify-content: space-around; 

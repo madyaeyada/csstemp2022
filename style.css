@@ -1,0 +1,125 @@
+*{margin: 0;padding: 0;}
+header , nav{
+  display: inline-flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  
+}
+
+a{
+    text-decoration: none;
+    color: rgb(81, 79, 78);
+    padding: 25px;
+
+}a:hover{
+    color: rgb(239, 32, 56);
+
+} .black{
+    color:black;
+    font-size:30px;
+}.black:hover{
+    color: rgb(239, 32, 56);
+}
+.drop{
+    background-color: rgb(199, 60, 60);
+    color: white;
+    border-radius: 5px;
+    margin-left: 20px;
+
+}
+.drop:hover + .down{
+    float: right;
+    color:black;
+    visibility: visible;
+}
+div.down{
+    border:1px solid black;
+    width: 600px;
+    height: 600px;display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 20px;
+    position: absolute;
+    margin-right: 20px;
+    margin-left: 70px;
+    margin-top: 80px;display:inline-block;
+    visibility: hidden;
+
+}
+.imgsend {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;max-width: 100%;
+  }
+.down input {
+    bottom: 20px;top:20px;
+    display: flex;width: 500px;
+    justify-content: center;border: none;
+    border-bottom: 1px solid gray;
+    padding: 10px;margin-right: 420px;line-height: 6px;
+} 
+
+/* 2-image-------------- */
+.textimg{
+    text-align:center;top:300px;margin-left:350px;
+    font-family: 'Josefin Sans', sans-serif;width: 300px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: bold; box-shadow: 5px 5px 10px rgb(245, 245, 245);
+        position:absolute;color: white;
+        
+} .black{
+    color:black;
+    font-size:30px;
+}.gray p{
+    color:rgb(206, 193, 193);
+    
+}.contfooter{background-color: rgb(6, 0, 0);
+    opacity: 0.7345;padding: 10px;
+    color:rgb(64, 13, 13);
+}
+.allcontfooter{
+    display: flex; justify-content: space-around; 
+    align-content: center;color:white;
+}
+.whpre{
+    white-space: pre;
+} footer{
+    background-image: url('image/3.jpg');background-color: rgb(19, 13, 13);
+    min-height: 400px;
+    line-height: 40px;
+} .social a {
+    color: rgb(252, 252, 245);padding: 1%;;
+}.btn {
+    padding: 10px;border-radius: 5px;background-color: rgb(48, 47, 47);
+}.btn a{
+    color: rgb(252, 252, 245)
+}
+/* special menus */
+.hcenter{
+text-align: center;padding: 20px;}
+.SpecialMenus{
+    display: flex;justify-content: space-around; margin: 20px;
+}
+.spmenus{
+    border: 1px rebeccapurple;
+    
+}.spmenus button, .spmenus span ,p{
+    margin: 10px;
+}
+/* stiky */
+.stikyimg{
+   
+    
+  height: 600px;
+}
+
+/* new Even */
+.news h{
+    background-color:#0dcaf0;padding: 10px;border-radius: 5px;
+}.news h2{
+    margin: 10px;}
+/* }
+.newsOLD h2{
+  top:120px; position:absolute;z-index: -1;border: 1px solid red;
+} */
